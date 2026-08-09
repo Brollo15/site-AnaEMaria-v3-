@@ -195,6 +195,16 @@
   .card .info .preco .valor{font-family:var(--display);font-size:1.7rem;font-weight:600;color:var(--terroso);line-height:1;}
   .card .info .preco .valor small{font-size:.62em;font-weight:500;margin-right:2px;}
   .card .info .preco .parcela{font-size:.75rem;opacity:.62;}
+  .card .info .preco .valores{display:flex;gap:10px;align-items:baseline;justify-content:center;flex-wrap:wrap;}
+  .card .info .preco .antigo{font-family:var(--display);font-size:1.05rem;font-weight:500;color:var(--mocha);opacity:.65;text-decoration:line-through;line-height:1;}
+  .card .selo{
+    position:absolute;top:12px;left:12px;z-index:3;
+    background:var(--terroso);color:var(--creme);
+    font-family:var(--corpo);font-size:.64rem;font-weight:700;
+    letter-spacing:.09em;text-transform:uppercase;
+    padding:6px 11px;border-radius:2px;
+    box-shadow:0 3px 10px rgba(59,44,33,.20);
+  }
   .card .info .acoes{margin-top:auto;padding-top:4px;display:flex;gap:20px;justify-content:center;align-items:center;}
   .card .info .comprar{
     color:var(--terroso);text-decoration:none;font-size:.82rem;font-weight:700;
@@ -346,6 +356,7 @@
       <!-- CARD 1 -->
       <article class="card reveal">
         <div class="foto carrossel">
+          <span class="selo">Últimas unidades</span>
           <div class="trilho">
             <img src="img/jesus-rei-do-brasil-capa.jpg" alt="Coleção Jesus Rei do Brasil" loading="lazy" draggable="false">
             <img src="img/jesus-rei-do-brasil-frente.jpg" alt="Coleção Jesus Rei do Brasil — frente" loading="lazy" draggable="false">
@@ -362,8 +373,8 @@
           <span class="verso">"Reine em nós, Senhor"</span>
           <p class="desc">Camiseta unissex confeccionada em algodão premium, com toque macio e excelente caimento. Disponível nos tamanhos PP ao GG.</p>
           <div class="preco">
-            <span class="valor"><small>R$</small>99,00</span>
-            <span class="parcela">ou em até 3x de R$ 33,00 no cartão</span>
+            <span class="valores"><span class="antigo">R$ 99,00</span><span class="valor"><small>R$</small>59,00</span></span>
+            <span class="parcela">ou em até 3x de R$ 19,67 no cartão</span>
           </div>
           <div class="acoes">
             <a class="comprar" href="https://wa.me/5547996770546?text=Ol%C3%A1!%20Tenho%20interesse%20na%20cole%C3%A7%C3%A3o%20Jesus%20Rei%20do%20Brasil" target="_blank" rel="noopener">Comprar</a>
@@ -374,6 +385,7 @@
       <!-- CARD 2 -->
       <article class="card reveal">
         <div class="foto carrossel">
+          <span class="selo">Últimas unidades</span>
           <div class="trilho">
             <img src="img/jesus-eu-confio-em-vos-capa.jpg" alt="Coleção Jesus eu confio em vós" loading="lazy" draggable="false">
             <img src="img/jesus-eu-confio-em-vos-frente-creme.jpg" alt="Coleção Jesus eu confio em vós — frente (creme)" loading="lazy" draggable="false">
@@ -389,8 +401,8 @@
           <span class="verso">Confiança e entrega</span>
           <p class="desc">Moletom unissex premium, pelucido por dentro, macio e confortável para os dias mais frios. Disponível nos tamanhos P ao GG.</p>
           <div class="preco">
-            <span class="valor"><small>R$</small>229,00</span>
-            <span class="parcela">ou em até 3x de R$ 76,33 no cartão</span>
+            <span class="valores"><span class="antigo">R$ 229,00</span><span class="valor"><small>R$</small>159,00</span></span>
+            <span class="parcela">ou em até 3x de R$ 53,00 no cartão</span>
           </div>
           <div class="acoes">
             <a class="comprar" href="https://wa.me/5547996770546?text=Ol%C3%A1!%20Tenho%20interesse%20na%20cole%C3%A7%C3%A3o%20Jesus%20eu%20confio%20em%20v%C3%B3s" target="_blank" rel="noopener">Comprar</a>
@@ -457,6 +469,7 @@
       <!-- CARD 5 -->
       <article class="card reveal">
         <div class="foto carrossel">
+          <span class="selo">Últimas unidades</span>
           <div class="trilho">
             <img src="img/deus-capa.jpg" alt="Coleção Deus" loading="lazy" draggable="false">
             <img src="img/deus-frente.jpg" alt="Coleção Deus — frente" loading="lazy" draggable="false">
@@ -473,8 +486,8 @@
           <span class="verso">Filipenses 2,9</span>
           <p class="desc">Moletom unissex premium, pelucido por dentro, com modelagem clássica e acabamento de alta qualidade. Disponível nos tamanhos P ao GG.</p>
           <div class="preco">
-            <span class="valor"><small>R$</small>219,00</span>
-            <span class="parcela">ou em até 3x de R$ 73,00 no cartão</span>
+            <span class="valores"><span class="antigo">R$ 219,00</span><span class="valor"><small>R$</small>159,00</span></span>
+            <span class="parcela">ou em até 3x de R$ 53,00 no cartão</span>
           </div>
           <div class="acoes">
             <a class="comprar" href="https://wa.me/5547996770546?text=Ol%C3%A1!%20Tenho%20interesse%20na%20cole%C3%A7%C3%A3o%20Deus" target="_blank" rel="noopener">Comprar</a>
@@ -541,6 +554,7 @@
       <!-- CARD 8 -->
       <article class="card reveal">
         <div class="foto carrossel">
+          <span class="selo">Últimas unidades</span>
           <div class="trilho">
             <img src="img/pescadores-de-homens-capa.jpg" alt="Coleção Pescadores de Homens" loading="lazy" draggable="false">
             <img src="img/pescadores-de-homens-frente.jpg" alt="Coleção Pescadores de Homens — frente" loading="lazy" draggable="false">
@@ -556,8 +570,8 @@
           <span class="verso">Mateus 4,19</span>
           <p class="desc">Moletom unissex premium, pelucido por dentro, com bordado exclusivo e acabamento de alta qualidade. Disponível nos tamanhos P ao GG.</p>
           <div class="preco">
-            <span class="valor"><small>R$</small>219,00</span>
-            <span class="parcela">ou em até 3x de R$ 73,00 no cartão</span>
+            <span class="valores"><span class="antigo">R$ 219,00</span><span class="valor"><small>R$</small>159,00</span></span>
+            <span class="parcela">ou em até 3x de R$ 53,00 no cartão</span>
           </div>
           <div class="acoes">
             <a class="comprar" href="https://wa.me/5547996770546?text=Ol%C3%A1!%20Tenho%20interesse%20na%20cole%C3%A7%C3%A3o%20Pescadores%20de%20Homens" target="_blank" rel="noopener">Comprar</a>
@@ -742,7 +756,7 @@
   "logo": "https://useanaemaria.com.br/img/logo.png",
   "slogan": "Fé que veste, amor que inspira",
   "telephone": "+5547996770546",
-  "priceRange": "R$ 99 - R$ 229",
+  "priceRange": "R$ 59 - R$ 159",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Itapema",
